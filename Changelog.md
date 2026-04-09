@@ -162,15 +162,6 @@ En particular, aquí se debe:
 - evitar reutilizar p-values no recalculados por el pipeline actual;
 - reformular la conclusión para que hable de evidencia preliminar robusta, no de validación definitiva cerrada.
 
-## Qué conviene decirle al profesor en la reunión
-1. Se detectaron errores en el pipeline original que podían afectar la interpretación de resultados.
-2. No se cambió el dataset base; se mantuvo `Consolidado_Ordenado.xlsx` como única entrada.
-3. Se corrigió la limpieza para no perder variables categóricas.
-4. Se corrigió la normalización de las variables absolutas y se dejó auditada.
-5. Se rehízo la validación con separación por grupos para evitar sobreestimación.
-6. Tras recalcular, se confirmó la relevancia de la experiencia técnica, pero se debilitó la evidencia sobre speaking time.
-7. Por eso el documento debe actualizarse, sobre todo en metodología, implementación y resultados.
-
 ## Recomendación para la siguiente entrega
 - Consolidar el texto del documento en torno al pipeline corregido.
 - Reemplazar todas las figuras antiguas por las versiones finales nuevas.
